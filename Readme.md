@@ -14,7 +14,7 @@ Features:
       alert--danger -> modifier 
         alert__title  -> element is part of the block a block can have many elements
     
-    * Does not include a grid I believe CSS-Grid and flexbox is far more powerful tools build exacly to match this purpose.
+  * Does not include a grid I believe CSS-Grid and flexbox is far more powerful tools build exacly to match this purpose.
 
 Comes with:
 - [X] Buttons
