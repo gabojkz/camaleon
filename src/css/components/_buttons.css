@@ -1,0 +1,70 @@
+.btn {
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 0 !important;
+  color: blue;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none; }
+  .btn:hover {
+    color: inherit;
+    text-decoration: none;
+    background: #111e2542; }
+  .btn-xs {
+    padding: 8px 16px; }
+  .btn-md {
+    width: 200px;
+    padding: 15px 0; }
+  .btn-lg {
+    width: 100%; }
+  .btn[disabled] {
+    opacity: 0.7;
+    cursor: not-allowed; }
+  .btn-icon {
+    margin: 0 3px; }
+  .btn--primary {
+    background-color: theme-color("primary", "normal");
+    -webkit-box-shadow: inset 1px 1px 1px theme-color("primary", "light");
+    box-shadow: inset 1px 1px 1px theme-color("primary", "light");
+    color: theme-color("light", "base");
+    border: 1px solid theme-color("primary", "normal"); }
+    .btn--primary:hover {
+      background-color: theme-color("primary", "light");
+      color: theme-color("light", "base"); }
+
+.close {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.5rem;
+  padding: 0.0625rem 0.4375rem 0.125rem;
+  margin: 0; }
+
+/*=============================================
+=            Section Checkbox btn            =
+=============================================*/
+.btn-checkbox label > input[type=checkbox] {
+  display: hidden; }
+
+/*=====  End of Section Checkbox btn  ======*/

@@ -1,0 +1,43 @@
+$theme-colors: (
+  'primary': ( //blue
+    'base': #303030,
+    'light': #3c3c3c,
+    'normal': #6e6e6e,
+    'dark': #262626
+  ),
+  'secondary': ( //black
+    'base': #ffffff,
+    'light': #d9d9d9,
+    'dark': #b4b4b4
+  ),
+  'success': (
+    'base': #393939,
+    'light': #6e6e6e,
+    'dark': #111
+  ),
+  'danger': (
+    'base': #393939,
+    'light': #6e6e6e,
+    'dark': #111
+  ),
+  'info': (
+    'base': #393939,
+    'light': #6e6e6e,
+    'dark': #111
+  ),
+  'light': (
+    'base': #ffffff,
+    'light': #d9d9d9,
+    'dark': #b4b4b4
+  ),
+  'dark': (
+    'base': #909090,
+    'light': #6e6e6e,
+    'dark': #262626
+  ),
+  'muted': (
+    'base': #393939,
+    'light': #6e6e6e,
+    'dark': #111
+  )
+);
