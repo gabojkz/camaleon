@@ -1,4 +1,4 @@
-The aim of this framework is to be:
+The aim to be:
   * Lightweight 
   * Easy
 
@@ -13,13 +13,12 @@ Features:
     alert -> block
       alert--danger -> modifier 
         alert__title  -> element is part of the block a block can have many elements
-      
+    
+    * Does not include a grid I believe CSS-Grid and flexbox is far more powerful tools build exacly to match this purpose.
 
-This does not includes a grid I belive CSS grid is far more powerful tool.
-
-Features
-[X] Buttons
-[X] Alerts
-[] Dropdown
-[] Tables
+Comes with:
+- [X] Buttons
+- [X] Alerts
+- [] Dropdown
+- [] Tables
 
