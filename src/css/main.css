@@ -567,3 +567,34 @@ p, label {
     .btn-link:hover {
       text-decoration: underline;
       color: #0000b3; }
+
+.table {
+  width: 100%; }
+  .table thead tr th, .table thead tr td, .table tbody tr th, .table tbody tr td, .table tfoot tr th, .table tfoot tr td {
+    padding-left: .66667rem;
+    padding-right: .66667rem; }
+  .table thead tr {
+    background-color: #F9F9F9; }
+    .table thead tr th, .table thead tr td {
+      border: 1px solid #DFDFDF;
+      text-align: left;
+      vertical-align: bottom;
+      font-size: 12px;
+      font-weight: normal;
+      color: #999;
+      text-transform: uppercase; }
+  .table--bordered tfoot tr th, .table--bordered tfoot tr td, .table--bordered thead tr th, .table--bordered thead tr td, .table--bordered tbody tr th, .table--bordered tbody tr td {
+    border: 1px solid #DFDFDF; }
+  .table--hover tfoot tr:hover, .table--hover tbody tr:hover {
+    background-color: #ffd; }
+  .table--large thead tr td, .table--large thead tr th, .table--large tbody tr td, .table--large tbody tr th, .table--large tfoot tr td, .table--large tfoot tr th {
+    padding: 12px; }
+  .table--sm thead tr td, .table--sm thead tr th, .table--sm tbody tr td, .table--sm tbody tr th, .table--sm tfoot tr td, .table--sm tfoot tr th {
+    padding-left: .33333rem;
+    padding-right: .33333rem; }
+  .table--mode-grid {
+    display: -ms-grid;
+    display: grid;
+    min-width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }

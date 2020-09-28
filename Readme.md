@@ -21,4 +21,6 @@ Comes with:
 - [X] Alerts
 - [] Dropdown
 - [] Tables
+  - [X] user can see lines colored when hover
+  - [X] user can see borders in the table cells
 
